@@ -21,6 +21,7 @@ function startGL()
       gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0); //Dokonanie transformacji położenia punktów z przestrzeni 3D do przestrzeni obrazu (2D)
     }
   `;
+  
   const fragmentShaderSource = `
     void main(void) {
        gl_FragColor = vec4(0  , 0.8 ,  0.1 ,   1); //Ustalenie stałego koloru wszystkich punktów sceny
