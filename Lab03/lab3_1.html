@@ -101,6 +101,7 @@ function startGL()
     0.0, 1.0, 0.0,  0.1, 1.0, 0.9,  0.0, 1.0, 0.3265,
     0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.0, 1.0, 1.0,
   ]
+  
   vertexColorBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, vertexColorBuffer);
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertexColor), gl.STATIC_DRAW);
