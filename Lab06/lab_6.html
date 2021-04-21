@@ -227,6 +227,7 @@ for(let i=0;i<12;i+=2)
   }
   
   
+
   vertexColorBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, vertexColorBuffer);
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertexColor), gl.STATIC_DRAW);
@@ -244,6 +245,7 @@ for(let i=0;i<12;i+=2)
       //vertexCoords.push(...createRectCoords(x/mapSizeX,y/mapSizeY,1.0/mapSizeX,0,0,1.0/mapSizeY));
     }
   }}
+  
   
 
   vertexCoordsBuffer = gl.createBuffer();
